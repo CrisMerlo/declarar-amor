@@ -1,0 +1,74 @@
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/f3b11898d45c6a231f35f27828721235.jpg');
+    background-size:2500px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Playwrite CU", cursive;
+    font-size: 4vw;
+    animation: fadeInOut 3s infinite; /* Animación suave */
+}
+
+h2 {
+    font-family: "Playwrite CU", cursive;
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: "Playwrite CU", cursive;
+    font-size: 2vw;
+    margin-top: 20px;
+    animation: pulse 3s infinite; /* Pequeño efecto de pulsación */
+}
+
+button {
+    background-image: url('../img/b255f2c407da9ba1d1820e6d9be88193.jpg');
+    font-family: "Playwrite CU", cursive;
+    font-size: 2.5vw;
+    padding: 8px 25px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 200px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
